@@ -16,6 +16,8 @@ Esse script faz scan de portas no protocolo TCP e UDP, enumerando seus respectiv
 
 O código conta com validação das entradas, se o valor é nulo o código não é executado e o mesmo foi validado no kali linux.
 
+Link do vídeo: https://youtu.be/F-MDA2wiDUA
+
 ## Dependências
 
 1. python3 (sudo apt install python3 -y)
@@ -25,7 +27,7 @@ O código conta com validação das entradas, se o valor é nulo o código não 
 
 ## Modo de uso
 
-```python3 nmap.py```
+```python3 script.py```
 
 * Adicione o HOST;
 
@@ -36,7 +38,7 @@ O código conta com validação das entradas, se o valor é nulo o código não 
 
 Exemplo da saída do script:
 ```
-#python3 nmap.py
+#python3 script.py
 Host: 127.0.0.1
 Porta(s): 80 443 8080
 Qual o protocolo? (Digite "UDP" ou "TCP"): TCP
